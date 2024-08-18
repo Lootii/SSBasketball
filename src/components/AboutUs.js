@@ -9,12 +9,12 @@ const AboutUs = () => {
     // Add your team members with image paths and descriptions
     {
       name: 'Naziah Charles',
-      image: '/images/Naz_pic.jpeg',
+      image: './images/Naz_pic.jpeg',
       description: 'Founder, Director and Trainer for SSBasketball. Naziah is a Skilled athlete known in the ontario basketball community as her early career has shown many sucesses. Naziah played for GCBA house league in grade 5 and for Gloucester Wolverines from grades 6-8. In Highschool Naziah was scouted to play in the inaugural OSBA womens basketball season and had great performances from grade 9 through 12 for the Louis Riel Academy Prep. In her grade 11 year, she was selected to play for team Ontario to represent the province. Naziah has continued her basketball journey with her commitment to the university of Ottawa WBB. Unfortunately due to a severe injury, Naziah was no longer able to play but decided to carry on her legacy through training the youth. She also has years of basketball camp experiences.',
     },
     {
       name: 'Lootii Kiri',
-      image: '/images/lootii_pic.jpeg',
+      image: './images/lootii_pic.jpeg',
       description: 'Co-Founder, Web developer and Trainer for SSBasketball. Lootii is a Hard working individual on and off the court. Played for Gloucester Wolverines from grade 6-8. Participated in the inaugural OSBA womens season for the Louis Riel Academy Prep and played from grades 9 through 12. Lootii was planning on a commitment with the University of Toronto Blues WBB to play as a varsity athlete and study at one of the top universities in the country but due to Injuries and COVID-19, she decided to pursue her education in Computer Science at her home town (University of Ottawa). Lootii has always been a High achiever and worked many camps for the past 7 years. Great experience in mentoring the youth as she is also a Math, Science and Computing tutor. Lootii is also in the process of receiving her personal training certificate with her passion for fitness and lifestyle.',
     },
   ];
