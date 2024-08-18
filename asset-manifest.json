@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/SSBasketball/static/css/main.d7498a77.chunk.css",
-    "main.js": "/SSBasketball/static/js/main.9cefeced.chunk.js",
-    "main.js.map": "/SSBasketball/static/js/main.9cefeced.chunk.js.map",
+    "main.js": "/SSBasketball/static/js/main.73a1b742.chunk.js",
+    "main.js.map": "/SSBasketball/static/js/main.73a1b742.chunk.js.map",
     "runtime-main.js": "/SSBasketball/static/js/runtime-main.e76acf14.js",
     "runtime-main.js.map": "/SSBasketball/static/js/runtime-main.e76acf14.js.map",
     "static/js/2.b93e3a73.chunk.js": "/SSBasketball/static/js/2.b93e3a73.chunk.js",
     "static/js/2.b93e3a73.chunk.js.map": "/SSBasketball/static/js/2.b93e3a73.chunk.js.map",
     "index.html": "/SSBasketball/index.html",
-    "precache-manifest.ef76a8bfe808998f60992f9d3599e36f.js": "/SSBasketball/precache-manifest.ef76a8bfe808998f60992f9d3599e36f.js",
+    "precache-manifest.0119ca2dbf367ee82d862cc3346acaf0.js": "/SSBasketball/precache-manifest.0119ca2dbf367ee82d862cc3346acaf0.js",
     "service-worker.js": "/SSBasketball/service-worker.js",
     "static/css/main.d7498a77.chunk.css.map": "/SSBasketball/static/css/main.d7498a77.chunk.css.map",
     "static/js/2.b93e3a73.chunk.js.LICENSE.txt": "/SSBasketball/static/js/2.b93e3a73.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.e76acf14.js",
     "static/js/2.b93e3a73.chunk.js",
     "static/css/main.d7498a77.chunk.css",
-    "static/js/main.9cefeced.chunk.js"
+    "static/js/main.73a1b742.chunk.js"
   ]
 }
