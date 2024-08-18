@@ -11,7 +11,7 @@ const Navigation = () => {
   return (
     <div className="navigation">
       <div className="logo">
-        <img src="/images/ball.jpeg" alt="Logo" style={{ width: '50px', height: '50px' }} />
+        <img src="./images/ball.jpeg" alt="Logo" style={{ width: '50px', height: '50px' }} />
       </div>
       <div className="tabs">
         <Link to="/" onClick={() => scrollToSection('home')} className="tab">

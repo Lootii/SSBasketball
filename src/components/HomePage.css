@@ -3,7 +3,7 @@
   }
   
   .background-image {
-    background-image: url('/images/basketball.JPG');
+    background-image: url('./images/basketball.JPG');
     margin-bottom: 230px;
     margin-top: 90px;
     background-size: contain;

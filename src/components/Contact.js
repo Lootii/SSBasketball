@@ -9,7 +9,7 @@ const Contact = () => {
       <div className="contact-box">
         <div className="icon-wrapper">
           {/* Your call icon image */}
-          <img src="/images/call.png" alt="Call Icon" />
+          <img src="./images/call.png" alt="Call Icon" />
         </div>
         <h2>Call Us</h2>
         <p><a href="tel:6138903809">Phone number: (613)890-3809</a></p>
@@ -19,7 +19,7 @@ const Contact = () => {
       <div className="contact-box">
         <div className="icon-wrapper">
           {/* Your email icon image */}
-          <img src="/images/email.png" alt="Email Icon" />
+          <img src="./images/email.png" alt="Email Icon" />
         </div>
         <h2>Email Us</h2>
         <p>Send us an Email: <a href="mailto:ShakeYourShadow@Gmail.com">ShakeYourShadow@Gmail.com</a></p>
@@ -30,7 +30,7 @@ const Contact = () => {
         <a href="https://www.instagram.com/shakeyourshadow/" target="_blank" rel="noopener noreferrer">
           <div className="icon-wrapper">
             {/* Your social media icon image */}
-            <img src="/images/ig.jpeg" alt="Social Media Icon" />
+            <img src="./images/ig.jpeg" alt="Social Media Icon" />
           </div>
           <h2>Social Media</h2>
           <p>Click here to follow us on Instagram @ShakeYourShadow</p>

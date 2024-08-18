@@ -6,7 +6,7 @@ const Facility = () => {
     <div className="facility" id="facility">
       <div className="facility-background">
         {/* Image for the facility */}
-        <img src="/images/gym.jpeg" alt="Facility" />
+        <img src="./images/gym.jpeg" alt="Facility" />
         {/* Title hovering over the image */}
         <h2 className="image-title">THE L A B</h2>
       </div>

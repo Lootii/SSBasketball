@@ -5,9 +5,9 @@ const Training = () => {
   const [showPopup, setShowPopup] = useState(false);
   const [index, setIndex] = useState(0);
   const images = [
-    "/images/gallery1.jpg",
-    "/images/gallery2.jpg",
-    "/images/gallery3.jpg"
+    "./images/gallery1.jpg",
+    "./images/gallery2.jpg",
+    "./images/gallery3.jpg"
   ];
 
   const togglePopup = () => {
