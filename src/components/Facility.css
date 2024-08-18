@@ -1,0 +1,48 @@
+/* Facility.css */
+.facility {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+  
+  .facility-background img {
+    /*width: 100%;*/
+    background-image: url('/public/images/gym.jpeg');
+    background-size: contain;
+    background-position: center;
+    height: 500px; /* Adjust the height as needed */
+    position: relative;
+    margin-bottom: 100px;
+    margin-top: 40px;
+  }
+  
+  .bubble-section {
+    max-width: 800px; /* Set a maximum width for the bubble section */
+    padding: 20px;
+    margin: 20px 0;
+    background-color: rgb(255, 255, 255); /* White background for the bubble section */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.815); /* Box shadow for a subtle effect */
+  }
+
+  .text {
+    font-size: 20px;
+  }
+
+  .image-title {
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    font-style: italic;
+    font-family: fantasy;
+    transform: translate(-50%, -50%);
+    color: rgb(245, 245, 245);
+    font-size: 50px;
+    text-align: center;
+    border-radius: 5px;
+    z-index: 1; /* Ensure the title is above the image */
+}
+  
+  /* Additional styles as needed */
+  

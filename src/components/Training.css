@@ -1,0 +1,148 @@
+.training {
+    padding: 20px;
+    margin-bottom: 150px;
+    position: relative; /* Ensure the gallery is positioned relatively */
+  }
+
+.title {
+    font-family:fantasy;
+    font-size: 80px;
+}
+  
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the gallery items */
+  }
+  
+  .gallery img {
+    height: 480px;
+    margin-bottom: 20px;
+  }
+  
+  .description {
+    margin-top: 20px;
+  }
+  
+  .prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    background-color: rgba(95, 85, 85, 0.349);
+    padding: 25px 23px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .prev {
+    left: 120px;
+  }
+  
+  .next {
+    right: 120px;
+  }
+  
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(60, 190, 21, 0.8); /* Slightly less transparent on hover */
+  }
+  
+  .description {
+    margin-top: 20px;
+  }
+
+  .describe{
+      font-size: 18px;
+  }
+  
+  .popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .popup-content {
+    max-width: 100%; /* Set the maximum width of the popup */
+    padding: 20px; /* Add padding to the content */
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: relative;
+    overflow-y: auto; 
+  }
+  
+  .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: transparent;
+    border: none;
+    color: #333;
+    font-size: 16px;
+    cursor: pointer;
+    z-index: 9999;
+  }
+  
+  .training-options {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+  }
+  
+  .training-option {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .training-option h3 {
+    margin-bottom: 5px;
+  }
+  
+  .training-option p {
+    margin-top: 0;
+  }
+
+  .more {
+    background-color: #30811c; /* Red background color */
+    color: rgb(255, 255, 255); /* White text color */
+    padding: 25px 40px; /* Padding around the text */
+    font-size: 16px; /* Font size of the text */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Cursor style on hover */
+    margin-top: 20px; /* Margin from the previous element */
+  }
+  .more:hover{
+      background-color: #49df2b;
+      color: #ffffff;
+      padding: 27px 43px;
+  }
+
+  .book-now-btn {
+    background-color: #f44336; /* Red background color */
+    color: white; /* White text color */
+    padding: 10px 20px; /* Padding around the text */
+    font-size: 16px; /* Font size of the text */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Cursor style on hover */
+    margin-top: 20px; /* Margin from the previous element */
+  }
+  
+  .book-now-btn:hover {
+    background-color: #d32f2f; /* Darker red background color on hover */
+  }
+  
+  
+  
+  

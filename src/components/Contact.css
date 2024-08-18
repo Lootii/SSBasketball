@@ -1,0 +1,59 @@
+/* styles/ContactUs.css */
+
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 200px;
+    margin-bottom: 180px;
+  }
+  
+  .contact-box {
+    text-align: center;
+    padding: 20px;
+    width: 320px;
+    height: 300px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .contact-box:hover {
+    transform: scale(1.05);
+  }
+  
+  .icon-wrapper {
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .icon-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  h2 {
+    margin: 10px 0;
+    font-size: 18px;
+  }
+  
+  p {
+    font-size: 14px;
+    color: rgb(20, 18, 18);
+  }
+  .c{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+  }
+
+  
+  
