@@ -8,7 +8,7 @@
   
   .facility-background img {
     /*width: 100%;*/
-    background-image: url('./public/images/gym.jpeg');
+    background-image: url('/public/images/gym.jpeg');
     background-size: contain;
     background-position: center;
     height: 500px; /* Adjust the height as needed */
